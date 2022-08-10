@@ -1,0 +1,23 @@
+.expenses-filter{
+    width: 100%;
+}
+.expenses-filter__control label{
+    display: block;
+    text-transform: uppercase;
+}
+.expenses-filter__control{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.expenses-filter__control select{
+  width: 25%;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  margin: 10px;
+}
+.expenses-filter__control option{
+    padding:10px;
+    font-size:20px;
+}
